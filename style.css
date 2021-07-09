@@ -190,10 +190,10 @@ nav {
 }
 
 /* Place the "forward button" to the right */
-.forward {
+/* .forward {
   right: 0;
   border-radius: 4px 0 0 4px;
-}
+} */
 
 /*when the user hovers,add a black background with some little opacity */
 .Back:hover,
@@ -214,16 +214,6 @@ nav {
   color: white;
   text-align: center;
 }
-
-/* Worknumbering (1/3 etc) */
-/*.MessageInfo {
-  color: #f2f2f3;
-  font-size: 14px;
-  padding: 10px 14px;
-  position: absolute;
-  top: 0;
-}*/
-
 
 
 /*.enable,
@@ -257,10 +247,7 @@ nav {
   }
 }
 
-/*body{
-  background-color: #CDF0EA;
 
-}*/
 
 .wel-content {
   text-align: center;
@@ -313,6 +300,7 @@ nav {
   width: 80px;
   background-color: black;
 }
+
 .main1 img {
   width: 100%;
   height: 100%;
@@ -398,22 +386,33 @@ margin-right:5em;
   display: flex;
   justify-content: center;
 }
-.about-section{
+ .about-section{
   padding: 1rem;
-  background-image: url("./image/bbsm2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-
-}
+  /* background-image: url("./image/bbsm2.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+ /* position: absolute;  */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 90%; */
+  margin-bottom: 2em;
+} 
 
 .about-info{
-  width: 90%;
-  position: relative;
-  top: 330px;
-  /*top:100%;*/
   margin: auto;
+  width: 50%;
+  padding: 1em;
+  font-family: Sans-serif;
+  font-size: 16px;
 
+}
+.about-image{
+  width: 45%;
+}
+.about-image img{
+  width: 100%;
+  height: 100%;
 }
 /*.about-section >p{
   margin-bottom: .5rem;
@@ -486,6 +485,14 @@ footer {
 
 }
 
+.ser-footer {
+  position: static;
+  bottom: 0px;
+  width: 100%;
+  background-color: #125d98;
+  margin-top: 23em;
+
+}
 
 
 .main-content {
@@ -554,16 +561,18 @@ footer {
     height: 100%;
 }
 .about-section{
- position: absolute;
-background-repeat: no-repeat;
-background-size: 100%;
+  display: flex;
+  flex-direction: column;
+ /* position: absolute; */
+/* background-repeat: no-repeat; */
+/* background-size: 100%; */
 
 }
 
-.about-info{
+/* .about-info{
   position: relative;
   margin-top: 60%;
-}
+} */
 
 @media screen and (max-width: 760px) {
   .main {
@@ -597,13 +606,14 @@ background-size: 100%;
 
 .about-section{
  
-  position: absolute;
+  display: flex;
+  padding: 20px;
 }
- .about-info{
-  
-  position: relative;
-  top:100%;
-  
+.about-info{
+  width: 100%;
+}
+.about-image{
+  width: 100%;
+}
 
-}
 }
