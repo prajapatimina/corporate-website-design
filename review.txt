@@ -1,0 +1,13 @@
+# Comments
+-	Not much good comment practice.
+
+# Formatting
+-	Formatting is not good. Not much easy to read.
+-	Need to take care of indentation.
+
+#other: 
+	1.Need to take care of the closing tags.
+    2. I found the images are blur .
+    3. missing transition.
+}
+
