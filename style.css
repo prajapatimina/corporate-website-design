@@ -88,9 +88,11 @@ nav {
   font-size: 14px;
 }
 
-.nav-links a:hover,.nav-links a:active {
+.nav-links a:hover,.nav-links {
   color: black;
 }
+
+
 .hamburger {
   display: none;
   font-size: 20px;
@@ -291,6 +293,9 @@ nav {
 .main2 h2 {
   position: relative;
 }
+.main2 p{
+  text-align: justify;
+}
 .main2 h2::before {
   content: "";
   position: absolute;
@@ -407,6 +412,11 @@ margin-right:5em;
   font-size: 16px;
 
 }
+.about-info p{
+  text-align: justify;
+  padding: auto;
+}
+
 .about-image{
   width: 45%;
 }
@@ -430,6 +440,11 @@ margin-right:5em;
   text-align: center;
   margin-bottom: 1em;
 
+}
+
+.service-info p{
+  display: flex;
+  text-align: justify;
 }
 
 .main-contact{
