@@ -373,10 +373,11 @@ margin-right:5em;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 .card img{
  object-fit: cover;
+ border-radius: 9px;
 }
 .card-container {
   margin-top: 1em;
